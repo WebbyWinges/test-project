@@ -1,11 +1,11 @@
-import { SchoolPage } from "@/pages/school/ui/school";
+import SchoolPage from "@/pages/school";
 import React from "react";
 
 const Page = () => {
   return (
     <div>
       {" "}
-      <SchoolPage />
+      <SchoolPage />{" "}
     </div>
   );
 };

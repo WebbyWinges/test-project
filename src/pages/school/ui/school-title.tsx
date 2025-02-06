@@ -25,7 +25,7 @@ const getActionTitleConfig = (type?: string): ActionTitleConfig => {
   }
 };
 
-export const SchoolTitle = ({ title, version, type }: SchoolTitleProps) => {
+const SchoolTitle = ({ title, version, type }: SchoolTitleProps) => {
   const { version: configVersion, text: configText } = type
     ? getActionTitleConfig(type)
     : defaultConfig;
@@ -49,3 +49,5 @@ export const SchoolTitle = ({ title, version, type }: SchoolTitleProps) => {
     </div>
   );
 };
+
+export default SchoolTitle;

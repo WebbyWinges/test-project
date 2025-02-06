@@ -1,1 +1,3 @@
-import { SchoolPage } from "./ui/school";
+import SchoolPage from "@/pages/school/ui/school";
+
+export default SchoolPage;

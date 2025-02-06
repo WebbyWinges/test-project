@@ -1,9 +1,9 @@
 import { Header } from "@/widgets/header";
 import React from "react";
-import { SchoolTitle } from "./school-title";
+import SchoolTitle from "./school-title";
 import { Card } from "@/widgets/card";
 
-export const SchoolPage = () => {
+export default function SchoolPage() {
   return (
     <div>
       <Header />
@@ -11,4 +11,4 @@ export const SchoolPage = () => {
       <Card />
     </div>
   );
-};
+}
